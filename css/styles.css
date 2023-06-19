@@ -10902,3 +10902,15 @@ header.masthead .masthead-content .masthead-subheading {
     font-size: 2rem;
   }
 }
+
+.steam-app-container {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+.steam-app-container steam-app {
+  width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
